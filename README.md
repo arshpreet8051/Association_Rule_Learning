@@ -19,10 +19,12 @@ Association rule learning is a data mining technique that focuses on discovering
 
 The Apriori algorithm is one of the earliest and most well-known association rule mining algorithms. It works by iteratively generating candidate itemsets and pruning those that do not meet the minimum support threshold. The algorithm's efficiency comes from the "apriori principle," which states that any subset of a frequent itemset must also be frequent.
 
+Navigate to implementation -> [`Apriori`](apriori.py)
 ## Eclat Algorithm
 
 The Eclat (Equivalence Class Clustering and Bottom-Up Lattice Traversal) algorithm is another approach to association rule mining. It uses a depth-first search strategy to find frequent itemsets by exploiting vertical data format. Eclat efficiently discovers frequent itemsets by recursively combining transactions that share a common prefix.
 
+Navigate to implementation -> [`Eclat`](eclat.py)
 ## Applications
 
 Association rule learning has applications in various fields, including:
@@ -36,7 +38,7 @@ Association rule learning has applications in various fields, including:
 ## Getting Started
 
 1. Clone this repository to your local machine.
-2. Navigate to the [`apriori`](apriori.py) or [`eclat`](eclat.py) to find the respective algorithm's implementation.
+2. Navigate to the [`Apriori`](apriori.py) or [`Eclat`](eclat.py) to find the respective algorithm's implementation.
 3. Follow the instructions provided in each subfolder's README to set up and run the algorithm.
 
 ## Contributing
