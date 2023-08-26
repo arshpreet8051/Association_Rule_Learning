@@ -14,8 +14,9 @@ This repository contains implementations of two popular association rule learnin
 ## Introduction to Association Rule Learning
 
 Association rule learning is a data mining technique that focuses on discovering interesting relationships among variables in large datasets. It aims to identify frequent itemsets and generate association rules based on the frequency of co-occurrence of items.
-
+<p align="center">
 <img src="images/a.webp" alt="Alt Text" width="35%" >
+</p>
 
 ## Apriori Algorithm
 
@@ -23,7 +24,9 @@ The Apriori algorithm is one of the earliest and most well-known association rul
 
 Navigate to implementation -> [`Apriori`](apriori.py)
 
+<p align="center">
 <img src="images/apriori.webp" alt="Alt Text" width="75%" >
+</p>
 
 ## Eclat Algorithm
 
@@ -32,8 +35,9 @@ The Eclat (Equivalence Class Clustering and Bottom-Up Lattice Traversal) algorit
 Navigate to implementation -> [`Eclat`](eclat.py)
 
 #### Flowchart for eclat algo👇🏼
-<img src="images/eclat.png" alt="Alt Text" height = "25%" width="35%" >
-
+<p align="center">
+<img src="images/flow.png" alt="Alt Text" height = "25%" width="35%" >
+</p>
 ## Applications
 
 Association rule learning has applications in various fields, including:
