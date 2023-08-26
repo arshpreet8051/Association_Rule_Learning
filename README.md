@@ -36,7 +36,7 @@ Association rule learning has applications in various fields, including:
 ## Getting Started
 
 1. Clone this repository to your local machine.
-2. Navigate to the `apriori` or `eclat` subfolder to find the respective algorithm's implementation.
+2. Navigate to the [`apriori`](apriori.py) or [`eclat`](eclat.py) to find the respective algorithm's implementation.
 3. Follow the instructions provided in each subfolder's README to set up and run the algorithm.
 
 ## Contributing
@@ -44,6 +44,7 @@ Association rule learning has applications in various fields, including:
 Contributions are welcome! If you find any issues or want to add improvements, feel free to submit a pull request.
 
 ## License
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 This project is licensed under the [MIT License](LICENSE).
 
