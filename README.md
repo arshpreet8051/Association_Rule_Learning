@@ -4,8 +4,8 @@ This repository contains implementations of two popular association rule learnin
 
 ## Table of Contents
 - [Introduction to Association Rule Learning](#introduction-to-association-rule-learning)
-- [Apriori Algorithm](#apriori-algorithm)
-- [Eclat Algorithm](#eclat-algorithm)
+- [Apriori Algorithm](#-apriori-algorithm)
+- [Eclat Algorithm](#-eclat-algorithm)
 - [Applications](#applications)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
@@ -18,7 +18,7 @@ Association rule learning is a data mining technique that focuses on discovering
 <img src="images/a.webp" alt="Alt Text" width="35%" >
 </p>
 
-## Apriori Algorithm
+## <img src="images/location.gif" alt="Alt Text" width="3.5%" > Apriori Algorithm
 
 The Apriori algorithm is one of the earliest and most well-known association rule mining algorithms. It works by iteratively generating candidate itemsets and pruning those that do not meet the minimum support threshold. The algorithm's efficiency comes from the "apriori principle," which states that any subset of a frequent itemset must also be frequent.
 
@@ -28,7 +28,7 @@ Navigate to implementation -> [`Apriori`](apriori.py)
 <img src="images/apriori.webp" alt="Alt Text" width="75%" >
 </p>
 
-## Eclat Algorithm
+## <img src="images/location.gif" alt="Alt Text" width="3.5%" > Eclat Algorithm
 
 The Eclat (Equivalence Class Clustering and Bottom-Up Lattice Traversal) algorithm is another approach to association rule mining. It uses a depth-first search strategy to find frequent itemsets by exploiting vertical data format. Eclat efficiently discovers frequent itemsets by recursively combining transactions that share a common prefix.
 
@@ -38,6 +38,7 @@ Navigate to implementation -> [`Eclat`](eclat.py)
 <p align="center">
 <img src="images/flow.png" alt="Alt Text" height = "25%" width="35%" >
 </p>
+
 ## Applications
 
 Association rule learning has applications in various fields, including:
