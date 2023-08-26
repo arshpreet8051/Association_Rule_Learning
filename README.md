@@ -15,16 +15,25 @@ This repository contains implementations of two popular association rule learnin
 
 Association rule learning is a data mining technique that focuses on discovering interesting relationships among variables in large datasets. It aims to identify frequent itemsets and generate association rules based on the frequency of co-occurrence of items.
 
+<img src="images/a.webp" alt="Alt Text" width="35%" >
+
 ## Apriori Algorithm
 
 The Apriori algorithm is one of the earliest and most well-known association rule mining algorithms. It works by iteratively generating candidate itemsets and pruning those that do not meet the minimum support threshold. The algorithm's efficiency comes from the "apriori principle," which states that any subset of a frequent itemset must also be frequent.
 
 Navigate to implementation -> [`Apriori`](apriori.py)
+
+<img src="images/apriori.webp" alt="Alt Text" width="75%" >
+
 ## Eclat Algorithm
 
 The Eclat (Equivalence Class Clustering and Bottom-Up Lattice Traversal) algorithm is another approach to association rule mining. It uses a depth-first search strategy to find frequent itemsets by exploiting vertical data format. Eclat efficiently discovers frequent itemsets by recursively combining transactions that share a common prefix.
 
 Navigate to implementation -> [`Eclat`](eclat.py)
+
+#### Flowchart for eclat algo👇🏼
+<img src="images/eclat.png" alt="Alt Text" height = "25%" width="35%" >
+
 ## Applications
 
 Association rule learning has applications in various fields, including:
@@ -34,6 +43,7 @@ Association rule learning has applications in various fields, including:
 - **Web Usage Mining:** Analyzing user navigation patterns on websites to personalize content and enhance user experience.
 - **Bioinformatics:** Discovering associations between genes, proteins, and diseases to understand biological interactions.
 - **Fraud Detection:** Detecting unusual patterns in financial transactions by identifying associations that might indicate fraudulent activities.
+
 
 ## Getting Started
 
